@@ -32,6 +32,17 @@ console.log(x ** y);
 //Math.pow(x,y) also produces same result as **(exponential)
 console.log(Math.pow(x,5));
 
+//ternary operator
+let a = (2 < "12") ? "True" : "False";
+console.log(a);
+
 //?? - it is used between two values, if the first value is Undefined or Null the second value is assigned.
 let z;
 console.log(z ??= 99);
+
+//?. - it is used in objects to see whether the object is present or not and returns undefined if not present if not present(instead of throwing error )
+let cars = {
+    type : "BMW",
+    year : 2016
+}
+console.log(cars ?. name);
