@@ -15,7 +15,7 @@ console.log('5' / '2');
 //But this will not be converted to numbers as it has "+" and it will treat both as strings and concat 
 console.log('3' + '2');
 
-//Implicit Non-numeric Strings to Nan
+//Implicit Non-numeric Strings to NaN
 console.log('Hello' - 'world');
 console.log('4' - 'hello');
 
