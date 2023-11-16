@@ -62,3 +62,13 @@ let xx;       // Now x is undefined
 xx = 5;       // Now x is a Number
 xx = "John";  // Now x is a String
 console.log(xx);
+
+//Redeclaring the value will redeclare the variable everywhere but cannot a variable declared inside cannot be used outside
+let v = 88;
+{
+    v = 99;
+    let vv = 111111;
+    console.log(v);
+}
+console.log(v);
+//console.log(vv);
